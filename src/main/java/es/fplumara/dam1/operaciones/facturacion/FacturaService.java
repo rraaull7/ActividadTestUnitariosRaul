@@ -1,4 +1,4 @@
-package es.fplumara.dam1.facturacion;
+package es.fplumara.dam1.operaciones.facturacion;
 
 public class FacturaService {
 

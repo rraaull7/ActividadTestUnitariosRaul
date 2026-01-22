@@ -1,4 +1,4 @@
-package es.fplumara.dam1.coche;
+package es.fplumara.dam1.operaciones.coche;
 
 public class Coche {
 

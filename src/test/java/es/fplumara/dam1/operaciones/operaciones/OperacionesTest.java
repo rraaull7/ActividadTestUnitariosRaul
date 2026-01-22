@@ -1,4 +1,4 @@
-package es.fplumara.dam1.operaciones;
+package es.fplumara.dam1.operaciones.operaciones;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
