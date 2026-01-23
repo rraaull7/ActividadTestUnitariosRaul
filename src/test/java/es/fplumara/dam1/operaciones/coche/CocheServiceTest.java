@@ -18,7 +18,6 @@ public class CocheServiceTest {
             "0000ZZZ",
             "9876QWE"
     })
-    @DisplayName("Matrículas válidas devuelven true")
     void testValidaMatriculaValida(String matricula) {
         assertTrue(cocheService.validaMatricula(matricula));
     }
@@ -33,8 +32,7 @@ public class CocheServiceTest {
             "'1234 ABC', false",
             "1234abc, false"
     })
-    @DisplayName("Matrículas inválidas devuelven false")
-    void testValidaMatriculaInvalida(String matricula, boolean esperado) {
+    void testValidaMatriculaInvalida(String matricula) {
         assertFalse(cocheService.validaMatricula(matricula));
     }
 }
